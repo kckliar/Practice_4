@@ -1,0 +1,9 @@
+print('Какая скорость ТС? ')
+speed = int(input())
+print('Сколько времени двигалось? ')
+time = int(input())
+a = 1 
+print('Время',' ','Путь')
+while a != time+1:
+    print(a,'ч','   ', speed*a,'км')
+    a=a+1 
