@@ -1,1 +1,8 @@
-///
+print('Введите числа через enter')
+num = 1
+sum = 0
+while num > 0:
+    num = int(input())
+    if num> 0:
+        sum = sum + num;
+print('Сумма цифр равна', sum)
