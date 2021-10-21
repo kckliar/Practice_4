@@ -1,1 +1,10 @@
-
+starts = int(input('Стартовое количество организмов '))
+uvel = int(input('Среднесуточное увеличение популяции в процентах '))
+days = int(input('Количество дней для размножения '))
+a = 1
+print('День Популяция')
+print(a, ' ', starts)
+while a != days:
+    a = a+1
+    starts = starts*(1+uvel/100)
+    print(a, ' ', starts);
